@@ -20,6 +20,11 @@ class Student{
         *cgpaPtr=*stud.cgpaPtr;
     }
 
+    ~Student()//Destructor
+    {
+        cout<<"Hi , I delete everything";
+        delete cgpaPtr;//Delete Dynamic variable
+    }
     void getInfo(){
         cout<<"Name : "<<name<<endl;
         cout<<"CGPA : "<<*cgpaPtr<<endl;
@@ -28,7 +33,7 @@ class Student{
 int main(){
     Student s1("Adi",8.81);
     s1.getInfo();
-    Student s2(s1);//default copy constructor give shallow Copy
+    Student s2(s1);//default copy constructor give shallow Copy 
     *(s2.cgpaPtr)=10;
     s1.getInfo();
     s2.getInfo();
