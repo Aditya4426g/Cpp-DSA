@@ -1,7 +1,12 @@
-# C++ DSA
-## OOPs
-### Making Object & Class
-### Encapsulation
-### Constructor
-### This pointer
-### Shallow & Deep Copy
+# C++ DSA  
+## OOPs  
+### Making Object & Class  
+### Encapsulation  
+### Constructor  
+### This pointer  
+### Shallow & Deep Copy  
+### Inheritance  
+### Abstraction
+### Static
+
+## Linked List
